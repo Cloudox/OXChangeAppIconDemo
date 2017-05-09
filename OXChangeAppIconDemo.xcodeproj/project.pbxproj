@@ -15,6 +15,8 @@
 		AD70A1411EC1503B00014484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD70A13F1EC1503B00014484 /* LaunchScreen.storyboard */; };
 		AD70A14C1EC1503B00014484 /* OXChangeAppIconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A14B1EC1503B00014484 /* OXChangeAppIconDemoTests.m */; };
 		AD70A1571EC1503B00014484 /* OXChangeAppIconDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A1561EC1503B00014484 /* OXChangeAppIconDemoUITests.m */; };
+		AD70A1661EC1505C00014484 /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD70A1641EC1505C00014484 /* boy.jpg */; };
+		AD70A1671EC1505C00014484 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD70A1651EC1505C00014484 /* girl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AD70A1521EC1503B00014484 /* OXChangeAppIconDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXChangeAppIconDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD70A1561EC1503B00014484 /* OXChangeAppIconDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXChangeAppIconDemoUITests.m; sourceTree = "<group>"; };
 		AD70A1581EC1503B00014484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD70A1641EC1505C00014484 /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
+		AD70A1651EC1505C00014484 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				AD70A13D1EC1503B00014484 /* Assets.xcassets */,
 				AD70A13F1EC1503B00014484 /* LaunchScreen.storyboard */,
 				AD70A1421EC1503B00014484 /* Info.plist */,
+				AD70A1641EC1505C00014484 /* boy.jpg */,
+				AD70A1651EC1505C00014484 /* girl.jpg */,
 				AD70A1311EC1503B00014484 /* Supporting Files */,
 			);
 			path = OXChangeAppIconDemo;
@@ -246,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD70A1661EC1505C00014484 /* boy.jpg in Resources */,
+				AD70A1671EC1505C00014484 /* girl.jpg in Resources */,
 				AD70A1411EC1503B00014484 /* LaunchScreen.storyboard in Resources */,
 				AD70A13E1EC1503B00014484 /* Assets.xcassets in Resources */,
 				AD70A13C1EC1503B00014484 /* Main.storyboard in Resources */,
