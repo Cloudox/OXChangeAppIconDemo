@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD70A1331EC1503B00014484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A1321EC1503B00014484 /* main.m */; };
+		AD70A1361EC1503B00014484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A1351EC1503B00014484 /* AppDelegate.m */; };
+		AD70A1391EC1503B00014484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A1381EC1503B00014484 /* ViewController.m */; };
+		AD70A13C1EC1503B00014484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD70A13A1EC1503B00014484 /* Main.storyboard */; };
+		AD70A13E1EC1503B00014484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD70A13D1EC1503B00014484 /* Assets.xcassets */; };
+		AD70A1411EC1503B00014484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD70A13F1EC1503B00014484 /* LaunchScreen.storyboard */; };
+		AD70A14C1EC1503B00014484 /* OXChangeAppIconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A14B1EC1503B00014484 /* OXChangeAppIconDemoTests.m */; };
+		AD70A1571EC1503B00014484 /* OXChangeAppIconDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70A1561EC1503B00014484 /* OXChangeAppIconDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD70A1481EC1503B00014484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD70A1261EC1503B00014484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD70A12D1EC1503B00014484;
+			remoteInfo = OXChangeAppIconDemo;
+		};
+		AD70A1531EC1503B00014484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD70A1261EC1503B00014484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD70A12D1EC1503B00014484;
+			remoteInfo = OXChangeAppIconDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD70A12E1EC1503B00014484 /* OXChangeAppIconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXChangeAppIconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD70A1321EC1503B00014484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD70A1341EC1503B00014484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD70A1351EC1503B00014484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD70A1371EC1503B00014484 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD70A1381EC1503B00014484 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD70A13B1EC1503B00014484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD70A13D1EC1503B00014484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD70A1401EC1503B00014484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD70A1421EC1503B00014484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD70A1471EC1503B00014484 /* OXChangeAppIconDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXChangeAppIconDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD70A14B1EC1503B00014484 /* OXChangeAppIconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXChangeAppIconDemoTests.m; sourceTree = "<group>"; };
+		AD70A14D1EC1503B00014484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD70A1521EC1503B00014484 /* OXChangeAppIconDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXChangeAppIconDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD70A1561EC1503B00014484 /* OXChangeAppIconDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXChangeAppIconDemoUITests.m; sourceTree = "<group>"; };
+		AD70A1581EC1503B00014484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD70A12B1EC1503B00014484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A1441EC1503B00014484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A14F1EC1503B00014484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD70A1251EC1503B00014484 = {
+			isa = PBXGroup;
+			children = (
+				AD70A1301EC1503B00014484 /* OXChangeAppIconDemo */,
+				AD70A14A1EC1503B00014484 /* OXChangeAppIconDemoTests */,
+				AD70A1551EC1503B00014484 /* OXChangeAppIconDemoUITests */,
+				AD70A12F1EC1503B00014484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD70A12F1EC1503B00014484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD70A12E1EC1503B00014484 /* OXChangeAppIconDemo.app */,
+				AD70A1471EC1503B00014484 /* OXChangeAppIconDemoTests.xctest */,
+				AD70A1521EC1503B00014484 /* OXChangeAppIconDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD70A1301EC1503B00014484 /* OXChangeAppIconDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AD70A1341EC1503B00014484 /* AppDelegate.h */,
+				AD70A1351EC1503B00014484 /* AppDelegate.m */,
+				AD70A1371EC1503B00014484 /* ViewController.h */,
+				AD70A1381EC1503B00014484 /* ViewController.m */,
+				AD70A13A1EC1503B00014484 /* Main.storyboard */,
+				AD70A13D1EC1503B00014484 /* Assets.xcassets */,
+				AD70A13F1EC1503B00014484 /* LaunchScreen.storyboard */,
+				AD70A1421EC1503B00014484 /* Info.plist */,
+				AD70A1311EC1503B00014484 /* Supporting Files */,
+			);
+			path = OXChangeAppIconDemo;
+			sourceTree = "<group>";
+		};
+		AD70A1311EC1503B00014484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD70A1321EC1503B00014484 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD70A14A1EC1503B00014484 /* OXChangeAppIconDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD70A14B1EC1503B00014484 /* OXChangeAppIconDemoTests.m */,
+				AD70A14D1EC1503B00014484 /* Info.plist */,
+			);
+			path = OXChangeAppIconDemoTests;
+			sourceTree = "<group>";
+		};
+		AD70A1551EC1503B00014484 /* OXChangeAppIconDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD70A1561EC1503B00014484 /* OXChangeAppIconDemoUITests.m */,
+				AD70A1581EC1503B00014484 /* Info.plist */,
+			);
+			path = OXChangeAppIconDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD70A12D1EC1503B00014484 /* OXChangeAppIconDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD70A15B1EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemo" */;
+			buildPhases = (
+				AD70A12A1EC1503B00014484 /* Sources */,
+				AD70A12B1EC1503B00014484 /* Frameworks */,
+				AD70A12C1EC1503B00014484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OXChangeAppIconDemo;
+			productName = OXChangeAppIconDemo;
+			productReference = AD70A12E1EC1503B00014484 /* OXChangeAppIconDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD70A1461EC1503B00014484 /* OXChangeAppIconDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD70A15E1EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemoTests" */;
+			buildPhases = (
+				AD70A1431EC1503B00014484 /* Sources */,
+				AD70A1441EC1503B00014484 /* Frameworks */,
+				AD70A1451EC1503B00014484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD70A1491EC1503B00014484 /* PBXTargetDependency */,
+			);
+			name = OXChangeAppIconDemoTests;
+			productName = OXChangeAppIconDemoTests;
+			productReference = AD70A1471EC1503B00014484 /* OXChangeAppIconDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD70A1511EC1503B00014484 /* OXChangeAppIconDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD70A1611EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemoUITests" */;
+			buildPhases = (
+				AD70A14E1EC1503B00014484 /* Sources */,
+				AD70A14F1EC1503B00014484 /* Frameworks */,
+				AD70A1501EC1503B00014484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD70A1541EC1503B00014484 /* PBXTargetDependency */,
+			);
+			name = OXChangeAppIconDemoUITests;
+			productName = OXChangeAppIconDemoUITests;
+			productReference = AD70A1521EC1503B00014484 /* OXChangeAppIconDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD70A1261EC1503B00014484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cloudox;
+				TargetAttributes = {
+					AD70A12D1EC1503B00014484 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD70A1461EC1503B00014484 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD70A12D1EC1503B00014484;
+					};
+					AD70A1511EC1503B00014484 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD70A12D1EC1503B00014484;
+					};
+				};
+			};
+			buildConfigurationList = AD70A1291EC1503B00014484 /* Build configuration list for PBXProject "OXChangeAppIconDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD70A1251EC1503B00014484;
+			productRefGroup = AD70A12F1EC1503B00014484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD70A12D1EC1503B00014484 /* OXChangeAppIconDemo */,
+				AD70A1461EC1503B00014484 /* OXChangeAppIconDemoTests */,
+				AD70A1511EC1503B00014484 /* OXChangeAppIconDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD70A12C1EC1503B00014484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70A1411EC1503B00014484 /* LaunchScreen.storyboard in Resources */,
+				AD70A13E1EC1503B00014484 /* Assets.xcassets in Resources */,
+				AD70A13C1EC1503B00014484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A1451EC1503B00014484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A1501EC1503B00014484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD70A12A1EC1503B00014484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70A1391EC1503B00014484 /* ViewController.m in Sources */,
+				AD70A1361EC1503B00014484 /* AppDelegate.m in Sources */,
+				AD70A1331EC1503B00014484 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A1431EC1503B00014484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70A14C1EC1503B00014484 /* OXChangeAppIconDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD70A14E1EC1503B00014484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70A1571EC1503B00014484 /* OXChangeAppIconDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD70A1491EC1503B00014484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD70A12D1EC1503B00014484 /* OXChangeAppIconDemo */;
+			targetProxy = AD70A1481EC1503B00014484 /* PBXContainerItemProxy */;
+		};
+		AD70A1541EC1503B00014484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD70A12D1EC1503B00014484 /* OXChangeAppIconDemo */;
+			targetProxy = AD70A1531EC1503B00014484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD70A13A1EC1503B00014484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD70A13B1EC1503B00014484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD70A13F1EC1503B00014484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD70A1401EC1503B00014484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD70A1591EC1503B00014484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD70A15A1EC1503B00014484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD70A15C1EC1503B00014484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXChangeAppIconDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD70A15D1EC1503B00014484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXChangeAppIconDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD70A15F1EC1503B00014484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXChangeAppIconDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXChangeAppIconDemo.app/OXChangeAppIconDemo";
+			};
+			name = Debug;
+		};
+		AD70A1601EC1503B00014484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXChangeAppIconDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXChangeAppIconDemo.app/OXChangeAppIconDemo";
+			};
+			name = Release;
+		};
+		AD70A1621EC1503B00014484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXChangeAppIconDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXChangeAppIconDemo;
+			};
+			name = Debug;
+		};
+		AD70A1631EC1503B00014484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXChangeAppIconDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXChangeAppIconDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXChangeAppIconDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD70A1291EC1503B00014484 /* Build configuration list for PBXProject "OXChangeAppIconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD70A1591EC1503B00014484 /* Debug */,
+				AD70A15A1EC1503B00014484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD70A15B1EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD70A15C1EC1503B00014484 /* Debug */,
+				AD70A15D1EC1503B00014484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD70A15E1EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD70A15F1EC1503B00014484 /* Debug */,
+				AD70A1601EC1503B00014484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD70A1611EC1503B00014484 /* Build configuration list for PBXNativeTarget "OXChangeAppIconDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD70A1621EC1503B00014484 /* Debug */,
+				AD70A1631EC1503B00014484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD70A1261EC1503B00014484 /* Project object */;
+}
