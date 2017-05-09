@@ -23,6 +23,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    // 利用runtime来替换展现弹出框的方法
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         Method presentM = class_getInstanceMethod(self.class, @selector(presentViewController:animated:completion:));
@@ -31,6 +32,7 @@
         method_exchangeImplementations(presentM, presentSwizzlingM);
     });
     
+    // 男生按钮
     UIButton *boyBtn = [[UIButton alloc] initWithFrame:CGRectMake((SCREENWIDTH-100)/2, 200, 100, 30)];
     [boyBtn setTitle:@"Boy" forState:UIControlStateNormal];
     [boyBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -38,6 +40,7 @@
     [boyBtn addTarget:self action:@selector(toBoy) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:boyBtn];
     
+    // 女生按钮
     UIButton *girlBtn = [[UIButton alloc] initWithFrame:CGRectMake((SCREENWIDTH-100)/2, 300, 100, 30)];
     [girlBtn setTitle:@"Girl" forState:UIControlStateNormal];
     [girlBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -46,16 +49,18 @@
     [self.view addSubview:girlBtn];
 }
 
+// 自己的替换展示弹出框的方法
 - (void)ox_presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion {
     
     if ([viewControllerToPresent isKindOfClass:[UIAlertController class]]) {
         NSLog(@"title : %@",((UIAlertController *)viewControllerToPresent).title);
         NSLog(@"message : %@",((UIAlertController *)viewControllerToPresent).message);
         
+        // 换图标时的提示框的title和message都是nil，由此可特殊处理
         UIAlertController *alertController = (UIAlertController *)viewControllerToPresent;
-        if (alertController.title == nil && alertController.message == nil) {
+        if (alertController.title == nil && alertController.message == nil) {// 是换图标的提示
             return;
-        } else {
+        } else {// 其他提示还是正常处理
             [self ox_presentViewController:viewControllerToPresent animated:flag completion:completion];
             return;
         }
@@ -66,7 +71,7 @@
 
 // 变男生图标
 - (void)toBoy {
-    if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
+    if (![[UIApplication sharedApplication] supportsAlternateIcons]) {// 系统不支持换图标
         return;
     }
     
@@ -79,7 +84,7 @@
 
 // 变女生图标
 - (void)toGirl {
-    if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
+    if (![[UIApplication sharedApplication] supportsAlternateIcons]) {// 系统不支持换图标
         return;
     }
     
